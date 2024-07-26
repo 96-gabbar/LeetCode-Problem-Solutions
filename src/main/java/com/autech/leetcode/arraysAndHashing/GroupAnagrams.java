@@ -1,10 +1,8 @@
-package com.autech.groupAnagrams;
-
-import org.apache.commons.lang3.ArrayUtils;
+package com.autech.leetcode.arraysAndHashing;
 
 import java.util.*;
 
-public class Solution {
+public class GroupAnagrams {
     public static List<List<String>> groupAnagrams(String[] strs) {
         Map<String, List<String>> anagramMap = new HashMap<>();
         for(int i=0;i<strs.length;i++){

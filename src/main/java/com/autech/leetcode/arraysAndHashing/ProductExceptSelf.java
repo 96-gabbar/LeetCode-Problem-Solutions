@@ -1,4 +1,4 @@
-package com.autech.productArrayExceptSelf;
+package com.autech.leetcode.arraysAndHashing;
 
 public class ProductExceptSelf {
     public int[] productExceptSelf(int[] nums) {

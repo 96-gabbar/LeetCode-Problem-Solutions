@@ -1,9 +1,9 @@
-package com.autech.twoSum;
+package com.autech.leetcode.arraysAndHashing;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution {
+public class TwoSum {
     public static int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
         Map<Integer, Integer> elementMap = new HashMap<>();

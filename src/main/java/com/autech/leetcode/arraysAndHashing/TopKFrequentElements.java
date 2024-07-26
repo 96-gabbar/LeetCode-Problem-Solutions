@@ -1,4 +1,4 @@
-package com.autech.topKFrequentElements;
+package com.autech.leetcode.arraysAndHashing;
 
 import java.util.*;
 

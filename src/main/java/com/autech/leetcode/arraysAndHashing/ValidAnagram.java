@@ -1,9 +1,9 @@
-package com.autech.validAnagram;
+package com.autech.leetcode.arraysAndHashing;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution {
+public class ValidAnagram {
     public static boolean isAnagram(String s, String t) {
         Map<Character, Integer> map = new HashMap<>();
         for(int i=0;i<s.length();i++){
